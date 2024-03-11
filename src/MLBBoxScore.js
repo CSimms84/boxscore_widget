@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-//import './MLBBoxScore.css'; // Assuming you'll style your component using CSS
+import './MLBBoxScore.css';
 
 import axios from 'axios';
 
@@ -11,7 +11,6 @@ const MLBBoxScore = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                // Adjust the URL to match your server's address and port
                 const response = await axios.get('http://localhost:3000/api/mlb');
                 setGameData(response.data);
                 setLoading(false);
@@ -29,7 +28,6 @@ const MLBBoxScore = () => {
     if (error) return <div>Error fetching game data.</div>;
     if (!gameData) return <div>No game data available.</div>;
 
-    // Example rendering of game data. Adjust according to your data structure and needs.
     return (
         <div>
             <h2>MLB Game Data</h2>
