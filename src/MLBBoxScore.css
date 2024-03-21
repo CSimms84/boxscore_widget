@@ -4,14 +4,13 @@
     margin: 20px auto;
     width: fit-content; 
     background-color: #fff;
-    display: 
 }
 
 
 .Table {
     border-collapse: collapse; /* Collapse borders so there's no space between them */
     margin: 0 auto; /* Center table in the div */
-    width: 100;
+    width: auto;
 }
 
 .Table__TH, .Table__TD {

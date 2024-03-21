@@ -8,10 +8,7 @@ h2 {
     font-size: 60px;
     text-align: center;
 }
-.Card {
-    width: 50%;
-    margin: 0 auto;
-}
+
 
 .team-info:hover {
     color: #007bff;
