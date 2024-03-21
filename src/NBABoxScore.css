@@ -1,42 +1,18 @@
+h2 {
+    background-image: linear-gradient(90deg, blue, purple, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+}
 .Card {
-    border: 2px solid #000;
-    padding: 20px;
-    margin: 20px auto;
-    width: fit-content; 
-    background-color: #fff;
-    display: 
+    width: 50%;
+    margin: 0 auto;
 }
 
-
-.Table {
-    border-collapse: collapse; /* Collapse borders so there's no space between them */
-    margin: 0 auto; /* Center table in the div */
-    width: 100;
-}
-
-.Table__TH, .Table__TD {
-    border: 1px solid #000; /* Black border for table headers and cells */
-    padding: 8px; /* Padding inside cells */
-    text-align: center; /* Center text within cells */
-}
-
-.Table__THEAD {
-    background-color: #f2f2f2; /* Light grey background for table header */
-}
-
-.ResponsiveTable {
-    overflow-x: auto; /* Allows table to scroll horizontally on small screens */
-}
-
-
-.Table__TR--sm {
-    height: 50px; /* Table Row height*/
-}
-
-.Table__even {
-    background-color: #f9f9f9; /* alternating row colors */
-}
-
-.Table__TR:hover {
-    background-color: #ddd; /* Highlight row on hover for better interactivity */
-}
+.team-info:hover {
+    color: #007bff;
+  }

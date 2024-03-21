@@ -40,3 +40,7 @@
 .Table__TR:hover {
     background-color: #ddd; /* Highlight row on hover for better interactivity */
 }
+
+.Table__TD:hover {
+  background-color: #841313;
+}
